@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
+import RefDemo from "./RefDemo";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <RefDemo />
     </div>
   );
-}
+};
 
 export default App;
