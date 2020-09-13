@@ -6,7 +6,7 @@ interface IProps {
 }
 
 // const Hello = (props: { data_one: string }) => {
-const Hello = (props: IProps) => {
+const Hello: React.FC<IProps> = (props: IProps) => {
   return (
     <div>
       <h3>Data prop 1: {props.data_one}</h3>
